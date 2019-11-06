@@ -3,18 +3,12 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 
-# Define a method, `#introduction` that takes in the argument `name` and outputs
-# the phrase: `"Hi, my name is #{name}."`
+
 
 def introduction(name)
   puts "Hi, my name is #{name}"
 end
 
-
-## Define a Method That Takes in and Uses Two Arguments
-# Define a method, `#introduction_with_language` that takes in two arguments,
-# `name` and `language` and outputs the phrase: "Hi, my name is #{name} and I am
-# learning to program in #{language}."
 
 
 def introduction_with_language(name,language)
@@ -22,13 +16,9 @@ def introduction_with_language(name,language)
 end
 
 
-## Define a Method With an Optional Argument
-# Copy the previous method and name it `#introduction_with_language_optional`. It
-# that takes in two arguments,`name` and `language`, but language is optional. The
-# default value for `language` will be "Ruby".
 
 
-def introduction_with_language_optional(name,language = "Ruby")
+def introduction_with_language_optional(name,language ="Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language} "
 end
 
