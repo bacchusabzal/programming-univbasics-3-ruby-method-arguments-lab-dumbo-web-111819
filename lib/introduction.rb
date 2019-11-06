@@ -4,7 +4,7 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 # Define a method, `#introduction` that takes in the argument `name` and outputs
-the phrase: `"Hi, my name is #{name}."`
+# the phrase: `"Hi, my name is #{name}."`
 
 def introduction(name)
   puts "Hi, my name is #{name}"
